@@ -9548,4 +9548,47 @@ body .main div .instru {
 #p2, #p3, #p4, #p5, #p6 {
   display: none;
 }
+
+body #p4 {
+  padding: 40px;
+}
+
+body #p4 .rb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #p4 .rb div .rt {
+  background-color: #1f75fb;
+  height: 200px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #p4 .rb div .rt .ck1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+body #p4 div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+body #p4 div div .place, body #p4 div div .click {
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+}
+
+body section .ajout {
+  border-radius: 5px;
+  border-style: none;
+}
 /*# sourceMappingURL=main.css.map */

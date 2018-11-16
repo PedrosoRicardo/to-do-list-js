@@ -11,6 +11,7 @@ function efx1() {
     div.style.backgroundColor = 'rgb(31, 117, 251)';
     exo1.style.backgroundColor = 'rgb(31, 117, 251)';
     ex1.style.color = 'white'
+    h2.innerHTML = 'le titre modifié'
     // a.style.textDecoration = 'none';
 
     exo2.style.backgroundColor = 'white';
@@ -126,7 +127,8 @@ function efx3() {
 
 ex3.addEventListener('click', efx3);
 
-// 
+//
+
 function efx4() {
     exo4.style.backgroundColor = 'rgb(31, 117, 251)';
     ex4.style.color = 'white';
@@ -145,6 +147,15 @@ function efx4() {
 
     exo6.style.backgroundColor = 'white';
     ex6.style.color = 'rgb(31, 117, 251)';
+
+    // 
+    p1.style.display = 'none';
+    p2.style.display = 'none';
+    p3.style.display = 'none';
+    p4.style.display = 'block';
+    p5.style.display = 'none';
+    p6.style.display = 'none';
+
 }
 
 ex4.addEventListener('click', efx4);
@@ -168,6 +179,14 @@ function efx5() {
 
     exo6.style.backgroundColor = 'white';
     ex6.style.color = 'rgb(31, 117, 251)';
+
+    // 
+    p1.style.display = 'none';
+    p2.style.display = 'none';
+    p3.style.display = 'none';
+    p4.style.display = 'none';
+    p5.style.display = 'block';
+    p6.style.display = 'none';
 }
 
 ex5.addEventListener('click', efx5);
@@ -191,8 +210,66 @@ function efx6() {
 
     exo2.style.backgroundColor = 'white';
     ex2.style.color = 'rgb(31, 117, 251)';
+
+    // 
+    p1.style.display = 'none';
+    p2.style.display = 'none';
+    p3.style.display = 'none';
+    p4.style.display = 'none';
+    p5.style.display = 'none';
+    p6.style.display = 'block';
 }
 
 ex6.addEventListener('click', efx6);
 
 // ex3 -------------------------------
+
+let btn1 = document.querySelector('.btn1');
+let sp1 = document.querySelector('.sp1');
+
+function s1() {
+    let input = document.querySelector('input').value;
+    sp1.innerText = input;
+}
+
+btn1.addEventListener('click', s1);
+
+// ex4 ------------------------------
+let ck1 = document.querySelector('.ck1');
+let pla = document.querySelector('.place');
+let cd1 = document.querySelector('.cd1');
+let cd2 = document.querySelector('.cd2');
+
+let cnt = document.querySelector('.cnt');
+let cmp = 0;
+
+
+function bl1() {
+    if (document.querySelector('.cd2 div') === null) {
+        cd2.appendChild(ck1);
+        cmp++
+        cnt.innerText = cmp;
+    } else {
+        cd1.appendChild(ck1);
+        cmp++
+        cnt.innerText = cmp;
+    }
+}
+
+pla.addEventListener('click', bl1);
+
+// ex5 ------------------------------------
+let ajout = document.querySelector('.ajout');
+
+function aze() {
+    let img = document.createElement('IMG');
+    img.setAttribute('src', "../public/img/oeuf.jpg");
+    let oeuf = document.querySelector('.oeuf');
+    oeuf.appendChild(img);
+}
+ajout.addEventListener('click', aze);
+
+// ex6 ------------------------------------
+
+
+
