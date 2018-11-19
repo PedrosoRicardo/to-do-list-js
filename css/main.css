@@ -9581,7 +9581,7 @@ body #p4 div {
   margin: 0 auto;
 }
 
-body #p4 div div .place, body #p4 div div .click {
+body #p4 div div .place, body #p4 div div .cli {
   border-radius: 5px;
   border-style: none;
   padding: 10px;
@@ -9590,5 +9590,9 @@ body #p4 div div .place, body #p4 div div .click {
 body section .ajout {
   border-radius: 5px;
   border-style: none;
+}
+
+body section .niveau2 {
+  width: 250px;
 }
 /*# sourceMappingURL=main.css.map */
