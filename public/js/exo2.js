@@ -7,6 +7,7 @@ let exo3 = document.querySelector('.exo3');
 let exo4 = document.querySelector('.exo4');
 let exo5 = document.querySelector('.exo5');
 let exo6 = document.querySelector('.exo6');
+let exo7 = document.querySelector('.exo7');
 
 // variables anchor
 let ex1 = document.querySelector('.ex1');
@@ -15,6 +16,7 @@ let ex3 = document.querySelector('.ex3');
 let ex4 = document.querySelector('.ex4');
 let ex5 = document.querySelector('.ex5');
 let ex6 = document.querySelector('.ex6');
+let ex7 = document.querySelector('.ex7');
 // var pages
 let p1 = document.querySelector('#p1');
 let p2 = document.querySelector('#p2');
@@ -22,6 +24,7 @@ let p3 = document.querySelector('#p3');
 let p4 = document.querySelector('#p4');
 let p5 = document.querySelector('#p5');
 let p6 = document.querySelector('#p6');
+let p7 = document.querySelector('#p7');
 
 // fonctions 
 function efx2() {
@@ -43,6 +46,9 @@ function efx2() {
     exo6.style.backgroundColor = 'white';
     ex6.style.color = 'rgb(31, 117, 251)';
 
+    exo7.style.backgroundColor = 'white';
+    ex7.style.color = 'rgb(31, 117, 251)';
+
     // 
     p1.style.display = 'none';
     p2.style.display = 'block';
@@ -50,6 +56,7 @@ function efx2() {
     p4.style.display = 'none';
     p5.style.display = 'none';
     p6.style.display = 'none';
+    p7.style.display = 'none';
 }
 
 ex2.addEventListener('click', efx2);
@@ -74,6 +81,9 @@ function efx3() {
     exo6.style.backgroundColor = 'white';
     ex6.style.color = 'rgb(31, 117, 251)';
 
+    exo7.style.backgroundColor = 'white';
+    ex7.style.color = 'rgb(31, 117, 251)';
+
     // 
     p1.style.display = 'none';
     p2.style.display = 'none';
@@ -81,6 +91,7 @@ function efx3() {
     p4.style.display = 'none';
     p5.style.display = 'none';
     p6.style.display = 'none';
+    p7.style.display = 'none';
 }
 
 ex3.addEventListener('click', efx3);
@@ -106,6 +117,9 @@ function efx4() {
     exo6.style.backgroundColor = 'white';
     ex6.style.color = 'rgb(31, 117, 251)';
 
+    exo7.style.backgroundColor = 'white';
+    ex7.style.color = 'rgb(31, 117, 251)';
+
     // 
     p1.style.display = 'none';
     p2.style.display = 'none';
@@ -113,6 +127,7 @@ function efx4() {
     p4.style.display = 'block';
     p5.style.display = 'none';
     p6.style.display = 'none';
+    p7.style.display = 'none';
 
 }
 
@@ -138,6 +153,9 @@ function efx5() {
     exo6.style.backgroundColor = 'white';
     ex6.style.color = 'rgb(31, 117, 251)';
 
+    exo7.style.backgroundColor = 'white';
+    ex7.style.color = 'rgb(31, 117, 251)';
+
     // 
     p1.style.display = 'none';
     p2.style.display = 'none';
@@ -145,6 +163,7 @@ function efx5() {
     p4.style.display = 'none';
     p5.style.display = 'block';
     p6.style.display = 'none';
+    p7.style.display = 'none';
 }
 
 ex5.addEventListener('click', efx5);
@@ -169,6 +188,9 @@ function efx6() {
     exo2.style.backgroundColor = 'white';
     ex2.style.color = 'rgb(31, 117, 251)';
 
+    exo7.style.backgroundColor = 'white';
+    ex7.style.color = 'rgb(31, 117, 251)';
+
     // 
     p1.style.display = 'none';
     p2.style.display = 'none';
@@ -176,6 +198,42 @@ function efx6() {
     p4.style.display = 'none';
     p5.style.display = 'none';
     p6.style.display = 'block';
+    p7.style.display = 'none';
 }
 
 ex6.addEventListener('click', efx6);
+
+// 
+function efx7() {
+    exo7.style.backgroundColor = 'rgb(31, 117, 251)';
+    ex7.style.color = 'white';
+
+    exo1.style.backgroundColor = 'white';
+    ex1.style.color = 'rgb(31, 117, 251)';
+
+    exo3.style.backgroundColor = 'white';
+    ex3.style.color = 'rgb(31, 117, 251)';
+
+    exo4.style.backgroundColor = 'white';
+    ex4.style.color = 'rgb(31, 117, 251)';
+
+    exo5.style.backgroundColor = 'white';
+    ex5.style.color = 'rgb(31, 117, 251)';
+
+    exo2.style.backgroundColor = 'white';
+    ex2.style.color = 'rgb(31, 117, 251)';
+
+    exo7.style.backgroundColor = 'white';
+    ex7.style.color = 'rgb(31, 117, 251)';
+
+    // 
+    p1.style.display = 'none';
+    p2.style.display = 'none';
+    p3.style.display = 'none';
+    p4.style.display = 'none';
+    p5.style.display = 'none';
+    p7.style.display = 'block';
+    p6.style.display = 'none';
+}
+
+ex7.addEventListener('click', efx7);
