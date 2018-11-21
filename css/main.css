@@ -9545,7 +9545,7 @@ body .main div .instru {
   margin: 0;
 }
 
-#p2, #p3, #p4, #p5, #p6 {
+#p2, #p3, #p4, #p5, #p6, #p7 {
   display: none;
 }
 
@@ -9594,5 +9594,38 @@ body section .ajout {
 
 body section .calculator {
   width: 250px;
+}
+
+body #p7 .ni1, body #p7 .ni2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+body #p7 .ni1 .i2::-webkit-input-placeholder, body #p7 .ni2 .i2::-webkit-input-placeholder {
+  color: red;
+}
+
+body #p7 .ni1 .i2:-ms-input-placeholder, body #p7 .ni2 .i2:-ms-input-placeholder {
+  color: red;
+}
+
+body #p7 .ni1 .i2::-ms-input-placeholder, body #p7 .ni2 .i2::-ms-input-placeholder {
+  color: red;
+}
+
+body #p7 .ni1 .i2::placeholder, body #p7 .ni2 .i2::placeholder {
+  color: red;
+}
+
+body #p7 .ni1 button, body #p7 .ni2 button {
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+body #p7 .liiste .liste {
+  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */
